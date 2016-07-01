@@ -42,7 +42,7 @@ try:
 		ra=str(ram_percent_used)+'%'
 		dis=str(disk_percent_used)+'%'
 
-		dweepy.dweet_for('SDN_Hack_RPi8', {"Temperature":temp,"RAM":ra,"Disk":dis } )
+		dweepy.dweet_for('SDN_Hack_RPi10', {"Temperature":temp,"RAM":ra,"Disk":dis } )
 		time.sleep(15)
 except KeyboardInterrupt:
 	exit()
